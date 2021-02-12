@@ -504,16 +504,73 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
   transition: all 300ms ease-in-out;
 }
 /*Style for Page Heading*/
+.svg_style {
+  position: relative;
+  
+}
 
 .page_heading {
   min-height: 400px;
-  position: relative;
   background-size: cover;
+  margin: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 120px;
 }
 .page_heading.about_page {
   background: transparent url(/img/aboutus.jpg) center center no-repeat;
 }
-.page_heading::before {
+.svg_style::before {
+  content: "";
+  width: 100%;
+  height: 130px;
+  background: url(/img/top.svg) center center no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-.page_heading::after {
+.svg_style::after {
+  content: "";
+  width: 100%;
+  height: 110px;
+  background: url(/img/bottom.svg) center center no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
+.page_heading h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.page_heading span.subtitle{
+    font-family: Waiting for the Sunrise;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFFFFF; 
+}
+
+/*About Box*/
+.about_box{
+    display: flex;
+    align-items: center;
+}
+.about_box .item_data:first-child{
+    margin-left: 25px;
+    margin-right: 45px;
+}
+.about_box .item_data:last-child{
+    margin-left: 45px;
+    margin-right: 25px;
+}
+.about_box .item_data article{
+    margin-bottom: 80px;
+}
+
