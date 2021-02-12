@@ -455,13 +455,13 @@ body {
   max-width: 1180px;
   width: 100%;
   margin: 0 auto;
-  height: 100px;
 }
 /*Stype for Heading*/
 header.top_header .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  height: 100px;
 }
 header.top_header .wrapper nav.left-nav ul {
   display: flex;
@@ -517,7 +517,6 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 120px;
 }
 .page_heading.about_page {
   background: transparent url(/img/aboutus.jpg) center center no-repeat;
@@ -561,6 +560,8 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
 .about_box{
     display: flex;
     align-items: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
 }
 .about_box .item_data:first-child{
     margin-left: 25px;
@@ -573,4 +574,23 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
 .about_box .item_data article{
     margin-bottom: 80px;
 }
+.about_box .item_data article:last-child{
+    margin-bottom: 0px;
+}
+.about_box .item_data article h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #433840;
+    margin-bottom: 12px;
+}
+.about_box .item_data article p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #9A9A9A;
+}
+
 
