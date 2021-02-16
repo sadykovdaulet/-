@@ -506,7 +506,6 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
 /*Style for Page Heading*/
 .svg_style {
   position: relative;
-  
 }
 
 .page_heading {
@@ -539,58 +538,128 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
   bottom: 0;
   left: 0;
 }
-.page_heading h2{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 62px;
-    color: #FFFFFF;
+.page_heading h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 62px;
+  color: #ffffff;
 }
 
-.page_heading span.subtitle{
-    font-family: Waiting for the Sunrise;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 50px;
-    color: #FFFFFF; 
+.page_heading span.subtitle {
+  font-family: Waiting for the Sunrise;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 50px;
+  color: #ffffff;
 }
 
 /*About Box*/
-.about_box{
-    display: flex;
-    align-items: center;
-    margin-top: 70px;
-    margin-bottom: 60px;
+.about_box {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
 }
-.about_box .item_data:first-child{
-    margin-left: 25px;
-    margin-right: 45px;
+.about_box .item_data:first-child {
+  margin-left: 25px;
+  margin-right: 45px;
 }
-.about_box .item_data:last-child{
-    margin-left: 45px;
-    margin-right: 25px;
+.about_box .item_data:last-child {
+  margin-left: 45px;
+  margin-right: 25px;
 }
-.about_box .item_data article{
-    margin-bottom: 80px;
+.about_box .item_data article {
+  margin-bottom: 80px;
 }
-.about_box .item_data article:last-child{
-    margin-bottom: 0px;
+.about_box .item_data article:last-child {
+  margin-bottom: 0px;
 }
-.about_box .item_data article h3{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 37px;
-    color: #433840;
-    margin-bottom: 12px;
+.about_box .item_data article h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  color: #433840;
+  margin-bottom: 12px;
 }
-.about_box .item_data article p{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 24px;
-    color: #9A9A9A;
+.about_box .item_data article p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #9a9a9a;
 }
 
+/*Infographic*/
 
+.infographic {
+  background: #fea3ac;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 60px;
+}
+
+.infographic .info_list {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infographic .info_list .item_info {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+.infographic .info_list .item_info:first-child {
+  margin-left: 0px;
+}
+.infographic .info_list .item_info:last-child {
+  margin-right: 0px;
+}
+
+.infographic .info_list .item_info .icon {
+  width: 135px;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.infographic .info_list .item_info .count{
+    font-family: Waiting for the Sunrise;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 99px;
+    color: #DFEEB6;
+    display: block;
+}
+.infographic .info_list .item_info h4{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+/*Dream Team*/
+
+.team{
+}
+
+.team .box_title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 62px;
+  color: #433840;
+}
+.team .subtitle{
+  font-family: Waiting for the Sunrise;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 50px;
+  color: #F7A1A8;
+}
