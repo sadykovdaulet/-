@@ -627,39 +627,105 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
   justify-content: center;
   margin: 0 auto;
 }
-.infographic .info_list .item_info .count{
-    font-family: Waiting for the Sunrise;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 60px;
-    line-height: 99px;
-    color: #DFEEB6;
-    display: block;
+.infographic .info_list .item_info .count {
+  font-family: Waiting for the Sunrise;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 99px;
+  color: #dfeeb6;
+  display: block;
 }
-.infographic .info_list .item_info h4{
+.infographic .info_list .item_info h4 {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /*Dream Team*/
 
-.team{
+.team {
 }
 
-.team .box_title{
+.team .box_title {
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
-  line-height: 62px;
+  line-height: 60px;
   color: #433840;
+  text-align: center;
 }
-.team .subtitle{
+.team .subtitle {
   font-family: Waiting for the Sunrise;
   font-style: normal;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 50px;
-  color: #F7A1A8;
+  color: #f7a1a8;
+  display: block;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.team_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team_list .team_member {
+  width: calc(50% - 201.5px);
+  background: #c9e3f4;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-left: 190px;
+  display: flex;
+  align-items: center;
+}
+.team_list .team_member:nth-child(2),
+.team_list .team_member:nth-child(3) {
+  background: #dfeeb6;
+  border-radius: 5px;
+}
+.team_list .team_member .image img {
+  border-radius: 100%;
+  margin-left: -190px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.team_list .team_member .data {
+  margin-left: 17px;
+}
+
+.team_list .team_member .data .name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #ffffff;
+  display: block;
+}
+
+.team_list .team_member .data .position {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  color: #433840;
+  margin-bottom: 14px;
+  display: block;
+}
+.team_list .team_member .data p {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #433840;
+  margin-bottom: 4px;
+}
+.team_list .team_member .data .social {
+  margin-left: 30px;
+  letter-spacing: 10px;
 }
