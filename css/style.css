@@ -753,8 +753,52 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
 
 /*Footer style*/
 
-
+.footer .top_footer{
+  background: url(/img/footer_image.jpg) center center no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .bottom_footer{
   background-color:#433840;
+}
+
+.footer .top_footer .wrapper{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer .top_footer .wrapper .footer_item{
+  width: calc(33.3% -13.3px);
+}
+
+h5.footer_title{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.footer_item.opening{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.footer_item.opening span {
+  color: #DFEEB6;
+}
+strong{
+font-weight: bold;
+}
+a {
+  color: inherit;
+}
+
+.contact_info{
+  font-size: 20px;
+  line-height: 35px;
+  color: #FFFFFF;
 }
