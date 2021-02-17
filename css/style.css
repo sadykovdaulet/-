@@ -645,9 +645,6 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
 }
 /*Dream Team*/
 
-.team {
-}
-
 .team .box_title {
   font-style: normal;
   font-weight: bold;
@@ -681,11 +678,6 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
   margin-left: 190px;
   display: flex;
   align-items: center;
-}
-.team_list .team_member:nth-child(2),
-.team_list .team_member:nth-child(3) {
-  background: #dfeeb6;
-  border-radius: 5px;
 }
 .team_list .team_member .image img {
   border-radius: 100%;
@@ -728,4 +720,41 @@ header.top_header .wrapper nav.right-nav ul li a:hover {
 .team_list .team_member .data .social {
   margin-left: 30px;
   letter-spacing: 10px;
+}
+.team_list .team_member:nth-child(2),
+.team_list .team_member:nth-child(3) {
+  background: #dfeeb6;
+  border-radius: 5px;
+}
+.team_list .team_member:nth-child(3),
+.team_list .team_member:nth-child(4) {
+  margin-left: 0;
+  margin-right: 190px;
+}
+
+.team_list .team_member:nth-child(3) .image,
+.team_list .team_member:nth-child(4) .image {
+  order: 2;
+}
+
+.team_list .team_member:nth-child(3) .image img,
+.team_list .team_member:nth-child(4) .image img {
+  margin-left: 0;
+  margin-right: -190px;
+}
+
+.team_list .team_member:nth-child(3) .data,
+.team_list .team_member:nth-child(4) .data {
+  order: 1;
+  margin-left: 0;
+  text-align: right;
+  margin-right: 17px;
+}
+
+/*Footer style*/
+
+
+
+.bottom_footer{
+  background-color:#433840;
 }
